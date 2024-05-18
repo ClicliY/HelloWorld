@@ -5,7 +5,7 @@ int main()
 {
     FILE *fp = NULL;
 
-    fp = fopen("test.dat", "wb");
+    fp = fopen("../data/test.dat", "wb");
     if(NULL != fp)
     {
         fputs(fp, "hello world\n");
